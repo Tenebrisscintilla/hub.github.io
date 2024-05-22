@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.weather-container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.location {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.date-time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.weather-description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.wind {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.forecast-
